@@ -460,7 +460,7 @@ body {
 
 a > h1 {
 
-  font-size: 25px;
+  font-size: 21px;
 
 }
 
@@ -794,14 +794,16 @@ input {
     }
 
 .fotofondo4 h1 {
-        color: white;
-        padding-left: 400px;
+    color: white;
+    padding-left: 381px;
+    padding-top: 141px;
+    font-size: 35px;
     }
 
 .colortext {
-       font-size: 20px;
+       font-size: 34px;
        padding-left: 200px;
-       padding-top: 150px;
+       padding-top: 26px;
     }
     
 .accordion-header:hover{
@@ -810,22 +812,85 @@ input {
             
     }
     
-    .menufinal {
+.menufinal {
         text-shadow: 0 0 0px #676161;
     background-color: white;
     box-shadow: 0 0 8px 10px #807b7b;
     padding-left: 179px;
     }
     
-    .contactate h1 p {
+.contactate h1 p {
         font-size: 26px;
         padding-left: 0px;
         color: black;
     }
     
-    .menufinal2 {
+.menufinal2 {
            text-shadow: 0 0 0px #676161;
     background-color: white;
     box-shadow: 0 0 8px 10px #807b7b;
     padding-left: 620px;
+    }
+    
+.fotofondo3 h1 p {
+    padding-left: -10px;
+    padding-top: 120px;
+    }
+    
+.formulario {
+    padding-right: 394px;
+    padding-left: 135px;
+    }
+    
+.fotofondo4 h2 {
+    padding-left: 94px;
+    }
+       
+.boton2 {
+        padding-left: 220px
+        
+    }
+    
+   /*--parte superior-----------------------------------------*/
+
+.titulo{
+            font-family: 'Bowlby One', cursive;
+            padding: 200px;
+            font-size: 130px;
+            margin-top: 0px;
+            text-align: center;
+        }
+
+.Menu{
+          width: 100%;
+          position: fixed;
+          height: 60px;
+          display: flex;
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+
+.menu2{
+         float: left;
+         padding-right: 25px;
+         padding-left: 25px;
+         transition: 2s;
+       }
+.Menu3{
+      width: 100%;
+      position: fixed;
+      height: 60px;
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+img > .imgface{
+  margin: 0px;
+  float: right;
+}
+
+    .imgface{
+      float: right;
+      height: 59px;
+      width: 75px;
+      margin: 0px;
     }

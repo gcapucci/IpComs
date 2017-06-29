@@ -14,6 +14,7 @@
             }
         </style>
         <title>Mundo Pc</title>
+         <link href="https://fonts.googleapis.com/css?family=Bowlby+One" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="./css/mundopc.css">
@@ -29,68 +30,27 @@
         <div id="inicio"></div>
         <div class="color"></div>
         <header>
-            <nav>
-            <div class="dropdown">
-            <nav role="navigation" class="navbar navbar-default">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
-                        <ul class="nav navbar-nav">
-                            <ul>
-                                <li>
-                                    <a href="#inicio" class="dropbtn">
-                                        <h1 class="animated pulse" >Inicio</h1>
+                                   <div class="Menu">
+                                    <a href=#inicio> 
+                                        <h1 class="menu2">Inicio</h1>
+                                   </a>
+                                    <a href="#servicios">
+                                        <h1 class="menu2">Servicios</h1>
                                     </a>
-                                </li>
-                                <li  class="sub-menu-parent">
-                                    <a href="#servicios" >
-                                        <h1 class="animated pulse">Servicios</h1>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="#servicios">Actualización</a></li>
-                                        <li><a href="#servicios">Formateo</a></li>
-                                        <li><a href="#servicios">Desinfección</a></li>
-                                        <li><a href="#servicios">Reparación</a></li>
-                                    </ul>
-                                </li>
-                                <li class="sub-menu-parent">
                                     <a href="#accesorios">
-                                        <h1 class="animated pulse">Accesorios</h1>
+                                        <h1 class="menu2">Accesorios</h1>
                                     </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="#accesorios">Monitores</a></li>
-                                        <li><a href="#accesorios">Gabinetes</a></li>
-                                        <li><a href="#accesorios">Teclados</a></li>
-                                        <li><a href="#accesorios">Mouse</a></li>
-                                    </ul>
-                                </li>
-                                <li class="sub-menu-parent">
+                                    
                                     <a href="#contacto">
-                                        <h1 class="animated pulse jquery">Contacto</h1>
+                                        <h1 class="menu2">Contacto</h1>
                                     </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="#contacto">Teléfono</a></li>
-                                        <li><a href="#contacto">Email</a></li>
-                                        <li><a href="#contacto">Dirección</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-                </div>
-            </nav>
-        <section class="fotofondo1">
+                                   <a href="www.facebook.com">
+                    <img class="imgface" src="https://www.seeklogo.net/wp-content/uploads/2013/11/facebook-flat-vector-logo-400x400.png"></a>  
+            
+            </div>
+            <section class="fotofondo1">
             <div class="encruadro1">    
-            <h1 class="titulo">MUNDO PC! (TITULO)</h1>
+            <h1 class="titulo">MUNDO PC!</h1>
             
             </div>
             </section>
@@ -202,24 +162,45 @@
                     <lu>EMAIL</lu>
                     <lu>DIRECCIÓN</lu>
                     <!-- informacion de la empresa -->
-                    <lu>SEGUINOS EN : FB </lu>
+                    <lu>REDES SOCIALES </lu>
                 </h2>
             </lu>
             <div id="contacto"></div>
-            <h1>DEJANOS TU CONSULTA</h1>
+            <h1>DEJANOS TU CONSULTA!</h1>
+           
+            
             <div class="colortext">
-                <form action="https://formspree.io/guidoca_94@hotmail.com" method="POST">
-                    <label for="name">NOMBRE</label><input type="text" name="name" id="name"/>
-                    <label for="mail">MAIL</label><input type="email" name="mail" id="mail"/>
-                    <label for="NOMBRE">CONSULTA </label><input type="text" name="name" id="name"/>
-                    <input name="button2" type="submit"
-                        onclick='alert("El mensaje ha sido enviado")' value="ENVIAR" />
-                </form>
+                
+            <div class="formulario">
+             
+            <form action="https://formspree.io/guidoca_94@hotmail.com" method="POST">
+            <div class="form-group">
+            <input type="message" class="form-control" id="pwd" placeholder="Nombre">
+            </div> 
+             <div class="form-group">   
+            <input type="email" class="form-control" id="mail" placeholder="Mail" name="email">
             </div>
+            <div class="form-group">      
+            <input type="message" class="form-control" id="pwd" placeholder="Asunto">
+            </div>
+            <div class="form-group">     
+            <input type="message" class="form-control" id="pwd" placeholder="Mensaje" rows="10">
+            </div> 
+            <div class="boton2">    
+            <button type="submit" class="btn btn-default" onclick="">Enviar</button>   
+            <div class="checkbox">
+                </div>
+                </div>
+    
+                </form>
+            
+      </div>    
+            </div>
+        
         </section>
         <script src="./js/bootstrap.js"   language="javascript" type="text/javascript"></script>
         <script src="./js/bootstrap.min.js"   language="javascript" type="text/javascript"></script>
         <script src="./js/mundopc.js"   language="javascript" type="text/javascript"></script>         <script src="./js/jquery.fullPage.js"   language="javascript" type="text/javascript"></script>
-            
+           
         </body>
     </html>
