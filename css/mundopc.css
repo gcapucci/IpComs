@@ -549,7 +549,7 @@ nav {
     }
 
 .encruadro1{
-    height: 400px;
+    height: 60px;
 }
 
 ---------------- /* acordeon */
@@ -767,7 +767,8 @@ input {
 }
     
 .fotofondo3 {
-    background-color: white;      
+    background-color: white;
+        padding-top: 1px;
     }
     
 .fotofondo3 h1 {
@@ -810,28 +811,28 @@ input {
     }
     
 .menufinal {
-        text-shadow: 0 0 0px #676161;
-    background-color: white;
-    box-shadow: 0 0 8px 10px #807b7b;
+    
     padding-left: 179px;
     }
     
-.contactate h1 p {
-        font-size: 26px;
-        padding-left: 0px;
-        color: black;
+.contactate h1 {
+    font-size: 46px;
+    color: white;
+    margin-bottom: 30px;
+    padding-bottom: 99px;
+    padding-top: 120px;
+    padding-left: 300px;
+    width: 1200px;
+    margin-top: 60px;
     }
     
 .menufinal2 {
-           text-shadow: 0 0 0px #676161;
-    background-color: white;
-    box-shadow: 0 0 8px 10px #807b7b;
     padding-left: 620px;
     }
     
 .fotofondo3 h1 p {
     padding-left: -10px;
-    padding-top: 120px;
+    padding-top: 275px;
     }
     
 .formulario {
@@ -845,6 +846,11 @@ input {
        
 .boton2 {
         padding-left: 220px
+        
+    }
+
+    .fotofondo4 h2 lu {
+        padding-right: 90px;
         
     }
     
@@ -890,4 +896,15 @@ img > .imgface{
       height: 59px;
       width: 75px;
       margin: 0px;
+    }
+    
+    .contactate {
+      background-image: url("../img/amanecer.JPG");
+     background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .form-group1 input {
+        padding-bottom: 100px;
     }
