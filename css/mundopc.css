@@ -25,6 +25,9 @@ nav {
 width: 100%;
    padding-top: 0px;
    padding-bottom: 10px;
+
+
+
 }
 -----------------------------------
 /* Menu desplegable */
@@ -50,7 +53,7 @@ li.sub-menu-parent:hover .sub-menu {
   position: absolute;
   top: 100%;
   left: -10%;
-  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* El último valor es el tiempo de transición para la visibilidad */
+  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* El ÃƒÂºltimo valor es el tiempo de transiciÃƒÂ³n para la visibilidad */
   font-size: 20px;
   }
 
@@ -59,7 +62,7 @@ li.sub-menu-parent:hover .sub-menu {
   opacity: 1;
   left: 0;
   transition-delay: 0s; /*
-Esto elimina el retardo de transición para que el menú sea visible mientras que la transición de otros estilos*/
+Esto elimina el retardo de transiciÃƒÂ³n para que el menÃƒÂº sea visible mientras que la transiciÃƒÂ³n de otros estilos*/
 }
 
 
@@ -78,10 +81,7 @@ Esto elimina el retardo de transición para que el menú sea visible mientras qu
 }
 
 body {
-  background-image: url('../img/madera.jpg');
-  background-repeat:round;
-  background-size: cover;
-  color:whitesmoke;
+  background-color: #d1dae3;
   width: 100%;
   height: 100%;
     }
@@ -111,7 +111,8 @@ h1 > p {
 
 h2 > p > em {
     margin-left: 280px;
-    padding-left: 200px;"
+    padding-left: 200px;
+    font-size: 28px;
    }
 
 
@@ -130,6 +131,11 @@ ul > h4 {
     margin-left: 250px;
 }
 
+a:hover {
+     font-size: 15px;
+     opacity: 0.5;
+
+ }
 
 lu, li {
     padding-left: 50px !important;
@@ -194,7 +200,7 @@ nav {
 .accordion-content {
 	display: none;
 	border-bottom: 1px solid #DDE0E7;
-	background: #F6F7F9;
+	background: black  ;
 	padding: 1.5rem;
 	color: black;
 }
@@ -211,7 +217,7 @@ nav {
 }
 
 .active.accordion-header::before {
-	background-color: #FC6468;
+	background-color: #fff5f5;
 }
 
 h5 {
@@ -219,33 +225,13 @@ h5 {
     font-size: 30px;
 }
 
-
-
 .box {
-  margin: 3px;
-  border: 3px solid #000;
-  border-radius: 15px;
-  float: left;
-  display: inline-flex;
+	display: inline-flex;
 	flex-direction: column;
 	justify-content: center;
     width: 300px;
     height: 400px;
     }
-
-.subimg2{
-  border-radius: 15px;
-  font-size: 20px;
-  text-align: center;
-  height: 399px;
-  transition: background-color 0.7s;
-  }
-
-.subimg2:hover{
-  background-color: rgba(0, 0, 30, 0.5);
-}
-
-
 
 img {
 	width: 100%;
@@ -402,8 +388,13 @@ nav {
    padding-bottom: 10px;
 }
 
+    .titulo{
+        padding: 200px;
+        font-size: 100px;
+        margin-top: 0px;
+        text-align: center;
 
-
+    }
 -----------------------------------
 /* Menu desplegable */
 
@@ -428,7 +419,7 @@ li.sub-menu-parent:hover .sub-menu {
   position: absolute;
   top: 100%;
   left: -10%;
-  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* El último valor es el tiempo de transición para la visibilidad */
+  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* El ÃƒÂºltimo valor es el tiempo de transiciÃƒÂ³n para la visibilidad */
   font-size: 20px;
   }
 
@@ -437,7 +428,7 @@ li.sub-menu-parent:hover .sub-menu {
   opacity: 1;
   left: 0;
   transition-delay: 0s; /*
-Esto elimina el retardo de transición para que el menú sea visible mientras que la transición de otros estilos*/
+Esto elimina el retardo de transiciÃƒÂ³n para que el menÃƒÂº sea visible mientras que la transiciÃƒÂ³n de otros estilos*/
 }
 
 
@@ -466,7 +457,8 @@ body {
 
 a > h1 {
 
-  font-size: 25px;
+  font-size: 21px;
+
 }
 
 h1 > p {
@@ -484,11 +476,13 @@ h1 > p {
     margin: 0px;
     font-size: 45px;
     font-family: sans-serif;
+    font-size: 25px;
+
 }
 
 h2 > p > em {
     margin-left: 280px;
-    padding-left: 200px;
+    padding-left: 261px;
     color: white;
    }
 
@@ -496,7 +490,6 @@ h2 > p > em {
 
 div {
     margin-left: 0px;
-
     }
 
 .contacto {
@@ -509,16 +502,23 @@ ul > h4 {
     margin-left: 250px;
 }
 
+a:hover {
+     font-size: 15px;
+     opacity: 0.5;
+
+ }
 
 lu, li {
     padding-left: 100px;
     padding-right: 80;
     font-family: cursive;
     color: white;
+    font-size: 21px;
     }
 
-.fotofondo3 h2 lu, li  {
-        color: #2e4392;
+.fotofondo3 h2 lu, ul  {
+    color: #2e4392;
+    font-size: 20px;
     }
 
 .color {
@@ -549,7 +549,7 @@ nav {
     }
 
 .encruadro1{
-    height: 400px;
+    height: 60px;
 }
 
 ---------------- /* acordeon */
@@ -578,9 +578,10 @@ nav {
 .accordion-content {
 	display: none;
 	border-bottom: 1px solid #DDE0E7;
-	background: #F6F7F9;
+	background: #404142;
 	padding: 1.5rem;
-	color: black;
+	color: white;
+    font-size: 20px;
 }
 
 .accordion-header::before {
@@ -762,16 +763,21 @@ input {
 }
 
 .fotofondo2 {
-    background-color: #296496;
+    background-color: #404142;
 }
 
 .fotofondo3 {
     background-color: white;
+        padding-top: 1px;
     }
 
 .fotofondo3 h1 {
     color: #2e4392;
-    padding-left: 350px;
+    padding-left: 490px;
+    font-size: 20px;
+    padding-top: 27px;
+    font-family: cursive;
+  }
     }
 
 .fotofondo1 lu h2 {
@@ -786,19 +792,71 @@ input {
     }
 
 .fotofondo4 h1 {
-        color: white;
-        padding-left: 400px;
+    color: white;
+    padding-left: 381px;
+    padding-top: 100px;
+    font-size: 35px;
     }
 
 .colortext {
-       font-size: 20px;
+       font-size: 34px;
        padding-left: 200px;
-       padding-top: 150px;
+       padding-top: 26px;
     }
 
-    /*--parte superior-----------------------------------------*/
+.accordion-header:hover{
+        background-color: grey;
+        transition: background-color 2.5s;
 
-        .titulo{
+    }
+
+.menufinal {
+
+    padding-left: 179px;
+    }
+
+.contactate h1 {
+    font-size: 46px;
+    color: white;
+    margin-bottom: 30px;
+    padding-bottom: 99px;
+    padding-top: 120px;
+    padding-left: 300px;
+    width: 1200px;
+    margin-top: 60px;
+    }
+
+.menufinal2 {
+    padding-left: 620px;
+    }
+
+.fotofondo3 h1 p {
+    padding-left: -10px;
+    padding-top: 275px;
+    }
+
+.formulario {
+    padding-right: 394px;
+    padding-left: 135px;
+    }
+
+.fotofondo4 h2 {
+    padding-left: 94px;
+    }
+
+.boton2 {
+        padding-left: 220px
+
+    }
+
+    .fotofondo4 h2 lu {
+        padding-right: 90px;
+
+    }
+
+   /*--parte superior-----------------------------------------*/
+
+.titulo{
             font-family: 'Bowlby One', cursive;
             padding: 200px;
             font-size: 130px;
@@ -806,7 +864,7 @@ input {
             text-align: center;
         }
 
-        .Menu{
+.Menu{
           width: 100%;
           position: fixed;
           height: 60px;
@@ -814,18 +872,13 @@ input {
           background-color: rgba(0, 0, 0, 0.5);
         }
 
-       .menu2{
+.menu2{
          float: left;
          padding-right: 25px;
          padding-left: 25px;
-         transition: background-color 2s;
+         transition: 2s;
        }
-
-       .menu2:hover{
-         background-color: rgba(0, 0, 0, 1);
-       }
-
-    .Menu3{
+.Menu3{
       width: 100%;
       position: fixed;
       height: 60px;
@@ -844,3 +897,38 @@ img > .imgface{
       width: 75px;
       margin: 0px;
     }
+
+    .contactate {
+      background-image: url("../img/amanecer.JPG");
+     background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .form-group1 input {
+        padding-bottom: 100px;
+    }
+
+    .box {
+  margin: 3px;
+  border: 3px solid #000;
+  border-radius: 15px;
+  float: left;
+  display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+    width: 300px;
+    height: 400px;
+    }
+
+.subimg2{
+  border-radius: 15px;
+  font-size: 20px;
+  text-align: center;
+  height: 399px;
+  transition: background-color 0.7s;
+  }
+
+.subimg2:hover{
+  background-color: rgba(0, 0, 30, 0.5);
+}

@@ -6,6 +6,13 @@ $("a[href^='#']").click(function(e) {
 	}, 1000 );
 });
 
+function closeAll() {
+    document.querySelectorAll('.accordion-header').forEach(function(header) {
+        $(header).removeClass('active').next().slideUp();
+    })
+}
+
 $(".accordion").on("click", ".accordion-header", function() {
- 	$(this).toggleClass("active").next().slideToggle();
+    closeAll();
+    $(this).toggleClass("active").next().slideToggle();
 });
