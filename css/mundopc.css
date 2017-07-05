@@ -316,12 +316,6 @@ input {
     border-color: #18BC9C;
 }
 
-@media (min-width: 768px) {
-    .navbar-custom {
-        padding: 25px 0;
-        -webkit-transition: padding 0.3s;
-        -moz-transition: padding 0.3s;
-        transition: padding 0.3s;
     }
     .navbar-custom .navbar-brand {
         font-size: 2em;
@@ -350,15 +344,7 @@ input {
     border-color: black;
     opacity: 0.6;
   }
-@media screen and (min-width: 770px) {
- a {
-    color: white;
-}
-}
 
-@media screen and (max-width: 770px) {
- a {
-    color: black;
 }
 =======
 * {
@@ -702,26 +688,6 @@ input {
     border-color: #18BC9C;
 }
 
-@media (min-width: 768px) {
-    .navbar-custom {
-        padding: 25px 0;
-        -webkit-transition: padding 0.3s;
-        -moz-transition: padding 0.3s;
-        transition: padding 0.3s;
-    }
-    .navbar-custom .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
-    }
-    .navbar-custom.affix {
-        padding: 10px 0;
-    }
-    .navbar-custom.affix .navbar-brand {
-        font-size: 1.5em;
-    }
-
 .navbar-default {
     background-color: #000000;
     border-color: black;
@@ -736,17 +702,7 @@ input {
     border-color: black;
     opacity: 0.6;
   }
-@media screen and (min-width: 770px) {
- a {
-    color: white;
-}
-}
 
-@media screen and (max-width: 770px) {
- a {
-    color: black;
-}
-}
 
 .fotofondo {
 	background-image: url("../img/tecladofondo.jpg");
@@ -932,3 +888,7 @@ img > .imgface{
 .subimg2:hover{
   background-color: rgba(0, 0, 30, 0.5);
 }
+
+     
+
+    

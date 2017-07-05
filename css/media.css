@@ -1,0 +1,132 @@
+                 /*----------------------Version celular-------_-----------------*/
+    
+@media screen and (min-width:0px) and (max-width: 500px) {
+        body {
+  background: white;
+         }
+.fotofondo1 {
+    background-image: url(../img/fondopc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+    }
+    .color {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+a {
+    color: white;
+}
+    h1.titulo a {     
+    color: white;
+}
+    .titulo {
+    font-size: 50px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+    padding-right: 80px;
+    padding-top: 80px;    
+    }
+
+    header {
+            height: 300px;
+    }
+    
+    .menu {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .menu2 {
+    font-size: 14px;
+    height: 50px;
+    width: 75px;
+    }
+    
+    .fotofondo2 {
+    background-color: #252b30;
+    }
+    
+    h2 p em {
+        font-size: 28px;
+    margin-left: 0px;
+    padding-left: 0px;
+    }
+    
+    .box {
+     height: 206px;
+     width: 296px;
+    }
+    
+    img {
+    width: 240px;
+    height: 210px;
+    padding-top: 100px;
+}
+ 
+    .fotofondo3 h1 {
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 300px;
+    font-size: 18px; 
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}    
+    
+    .subimg2 h2 {
+        font-size: 22px;
+    }
+    
+    .menufinal ul{
+        font-size: 16px;
+    }
+    .menufinal {
+        padding-left: 50px;
+    }
+    .menufinal2 {
+        padding-left: 0px;
+        }
+    .menufinal2 ul {
+        font-size: 17px;
+    }
+    .fotofondo3 {
+        height: 451px;
+    }
+    .contactate {
+        height: 451px;
+        padding-top: 5px;
+    }
+
+    .fotofondo4 lu {
+        font-size: 13px;
+    }
+    
+    .fotofondo4 lu h1 {
+        padding-left: 0px;
+            font-size: 23px;
+    }
+    
+    .formulario {
+        padding-left: 0px;
+    padding-right: 0px;
+    }
+    
+    .colortext  {
+        padding-left: 0px;
+    }
+    
+    .fotofondo4 {
+            height: 900px;
+    }
+}
+
+
+    
