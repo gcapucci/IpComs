@@ -724,7 +724,8 @@ input {
 
 .fotofondo3 {
     background-color: white;
-        padding-top: 1px;
+    padding-top: 1px;
+    height: 601px;
     }
 
 .fotofondo3 h1 {
@@ -887,6 +888,17 @@ img > .imgface{
 
 .subimg2:hover{
   background-color: rgba(0, 0, 30, 0.5);
+}
+
+.seccioncontacto h1 {
+    padding-top: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 300px;
+}
+
+.seccioncontacto {
+        height: 268px;
 }
 
      

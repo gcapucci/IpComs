@@ -3,6 +3,7 @@
 @media screen and (min-width:0px) and (max-width: 500px) {
         body {
   background: white;
+  width: 420px;            
          }
 .fotofondo1 {
     background-image: url(../img/fondopc.jpg);
@@ -45,7 +46,6 @@ a {
     .menu2 {
     font-size: 14px;
     height: 50px;
-    width: 75px;
     }
     
     .fotofondo2 {
@@ -101,7 +101,7 @@ a {
         height: 451px;
     }
     .contactate {
-        height: 451px;
+        height: 405px;
         padding-top: 5px;
     }
 
@@ -126,7 +126,38 @@ a {
     .fotofondo4 {
             height: 900px;
     }
+
+    .contactate h1 {
+        font-size: 25px;
+        padding-left: 45px;
+        padding-top: 80px;
+    }
+    
+    .seccioncontacto {
+            height: 200px;
+            background-color: black
+    }
+   
+    .fotofondo4 h2{
+        padding-left: 10px;
+    }
+   
+    .contactofinal lu {
+        padding-left: 0px;
+    }
+    
+    .contactofinal lu {
+     width: 320px;
+     height: 30px;
+     text-align: center;
+     padding-left: 73px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     font-size: 19px;
+    }
+ 
 }
+
 
 
     
