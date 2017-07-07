@@ -499,12 +499,12 @@ lu, li {
     padding-right: 80;
     font-family: cursive;
     color: white;
-    font-size: 21px;
+    font-size: 19px;
     }
 
 .fotofondo3 h2 lu, ul  {
     color: #2e4392;
-    font-size: 20px;
+    font-size: 19px;
     }
 
 .color {
@@ -720,6 +720,7 @@ input {
 
 .fotofondo2 {
     background-color: #404142;
+    height: 600px;
 }
 
 .fotofondo3 {
@@ -745,15 +746,17 @@ input {
     background-image: url("../img/fondomadera.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixe;
+	background-attachment: fixed;
+        height: 740px;    
     }
 
 .fotofondo4 h1 {
     color: white;
     padding-left: 381px;
-    padding-top: 100px;
-    font-size: 35px;
-    }
+    padding-top: 50px;
+    font-size: 30px;
+    margin-top: 0px
+}
 
 .colortext {
        font-size: 34px;
@@ -773,7 +776,7 @@ input {
     }
 
 .contactate h1 {
-    font-size: 46px;
+    font-size: 33px;
     color: white;
     margin-bottom: 30px;
     padding-bottom: 99px;
@@ -781,7 +784,9 @@ input {
     padding-left: 300px;
     width: 1200px;
     margin-top: 60px;
-    }
+    height: 279px;
+    
+}
 
 .menufinal2 {
     padding-left: 620px;
@@ -799,15 +804,19 @@ input {
 
 .fotofondo4 h2 {
     padding-left: 94px;
-    }
+    text-align:inherit;
+}
 
 .boton2 {
-        padding-left: 220px
+        padding-left: 220px;
+        margin-bottom: 20px;    
 
     }
 
     .fotofondo4 h2 lu {
         padding-right: 90px;
+        margin-left: 105px;
+        padding-right: 0px;
 
     }
 
@@ -854,6 +863,7 @@ img > .imgface{
       height: 59px;
       width: 75px;
       margin: 0px;
+      left: 1100px;
     }
 
     .contactate {
@@ -869,7 +879,7 @@ img > .imgface{
 
 .box {
   margin: 3px;
-  border: 3px solid #000;
+  border: 3px solid #611313;
   border-radius: 15px;
   float: left;
   display: inline-flex;
@@ -895,7 +905,8 @@ img > .imgface{
     padding-top: 120px;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 300px;
+    padding-left: 391px;
+    font-size: 32px;
 }
 
 .seccioncontacto {
@@ -904,6 +915,7 @@ img > .imgface{
 
 .mundopc {
     text-align: center;
+    margin-top: 20px;
 }
 
 hr {
@@ -919,7 +931,7 @@ hr {
     width: 50;
     height: 38px;
     object-fit: cover;
-        width: 60px;
+    width: 60px;
     height: 50px;
     object-fit: cover;
     margin-top: 0px;
@@ -928,6 +940,7 @@ hr {
     padding-right: 0px;
     left: 600px;
     margin-bottom: 0px;
+    left: 1170px; 
 }
 
 img {
@@ -1039,3 +1052,23 @@ img {
 }
 
 /*-------------------------------*/
+
+.contactofinal {
+    padding-left: 170px;
+    padding-right: 90px;
+    margin-bottom: 50px;
+    text-align:inherit;
+}
+
+.fondoaccesorios {
+      background-image: url("../img/fondoaccesorios.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.div-img h2 {
+    font-family: -webkit-pictograph;
+    color: white;
+    text-align: center;
+}

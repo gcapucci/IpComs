@@ -16,3 +16,4 @@ $(".accordion").on("click", ".accordion-header", function() {
     closeAll();
     $(this).toggleClass("active").next().slideToggle();
 });
+
