@@ -1,6 +1,6 @@
-                 /*----------------------Version celular-------_-----------------*/
+/*----------------------Version celular------------------------*/
     
-@media screen and (min-width:0px) and (max-width: 500px) {
+@media screen and (min-width:0px) and (max-width: 470px) {
         body {
   background: #252b30;
   width: 420px;            
