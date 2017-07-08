@@ -2,8 +2,9 @@
     
 @media screen and (min-width:0px) and (max-width: 470px) {
         body {
-  background: #252b30;
-  width: 420px;            
+    background: #252b30;
+    width: 420px;
+    height: 3000px        
          }
 .fotofondo1 {
     background-image: url(../img/fondopc.jpg);
@@ -92,7 +93,7 @@ a {
     
     .menufinal ul{
     font-size: 15px;
-    text-align: center;
+    text-align: start;
     }
     
     .menufinal {
@@ -106,6 +107,7 @@ a {
     .menufinal2 ul {
     font-size: 16px;
     text-align: center;
+    padding-top: 20px;
     }
     
     .fotofondo3 {
@@ -126,17 +128,22 @@ a {
             font-size: 24px;
     }
     
+    .blah {
+        display:inline-block 
+    }
+    
     .formulario {
         padding-left: 0px;
-    padding-right: 0px;
+        padding-right: 0px;
     }
     
     .colortext  {
         padding-left: 0px;
+        margin: 0px
     }
     
     .fotofondo4 {
-        height: 720px;
+        height: 790px;
     }
 
     .contactate h1 {
@@ -236,7 +243,25 @@ a {
        margin-left: 60px;
     }
 
+    .fotofondo3 h2 lu, ul {
+        font-size: 10px;
+    }
+
+    .boton2 {
+        padding-left: 
+    }
+    
+    .menufinal2 {
+        display: non
+    }
+   
+    .item {
+        display: none;
+    }
+
 }
+
+
 
 
 

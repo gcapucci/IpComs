@@ -13,7 +13,12 @@ function closeAll() {
 }
 
 $(".accordion").on("click", ".accordion-header", function() {
-    closeAll();
-    $(this).toggleClass("active").next().slideToggle();
+    if(!$(this).hasClass('active')) {
+        closeAll();
+        $(this).toggleClass("active").next().slideToggle();
+    } else {
+        closeAll();
+    }
+    
 });
 

@@ -503,7 +503,7 @@ lu, li {
     }
 
 .fotofondo3 h2 lu, ul  {
-    color: #2e4392;
+    color: black;
     font-size: 19px;
     }
 
@@ -724,13 +724,13 @@ input {
 }
 
 .fotofondo3 {
-    background-color: white;
+    background-color: #e6e2df;
     padding-top: 1px;
     height: 601px;
     }
 
 .fotofondo3 h1 {
-    color: #2e4392;
+    color: black;
     padding-left: 490px;
     font-size: 20px;
     padding-top: 27px;
@@ -758,11 +758,6 @@ input {
     margin-top: 0px
 }
 
-.colortext {
-       font-size: 34px;
-       padding-left: 200px;
-       padding-top: 26px;
-    }
 
 .accordion-header:hover{
         background-color: grey;
@@ -797,20 +792,13 @@ input {
     padding-top: 275px;
     }
 
-.formulario {
-    padding-right: 394px;
-    padding-left: 135px;
-    }
-
 .fotofondo4 h2 {
     padding-left: 94px;
     text-align:inherit;
 }
 
 .boton2 {
-        padding-left: 220px;
-        margin-bottom: 20px;    
-
+    text-align: center;
     }
 
     .fotofondo4 h2 lu {
