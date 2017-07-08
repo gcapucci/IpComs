@@ -747,7 +747,7 @@ input {
     background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-        height: 740px;    
+        height: 740px;
     }
 
 .fotofondo4 h1 {
@@ -779,13 +779,8 @@ input {
     font-size: 33px;
     color: white;
     margin-bottom: 30px;
-    padding-bottom: 99px;
-    padding-top: 120px;
-    padding-left: 300px;
-    width: 1200px;
     margin-top: 60px;
     height: 279px;
-    
 }
 
 .menufinal2 {
@@ -809,7 +804,7 @@ input {
 
 .boton2 {
         padding-left: 220px;
-        margin-bottom: 20px;    
+        margin-bottom: 20px;
 
     }
 
@@ -868,7 +863,7 @@ img > .imgface{
 
     .contactate {
       background-image: url("../img/amanecer.JPG");
-     background-attachment: fixed;
+      background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -894,7 +889,7 @@ img > .imgface{
   font-size: 20px;
   text-align: center;
   height: 390px;
-  
+
   }
 
 .box:hover{
@@ -902,10 +897,8 @@ img > .imgface{
 }
 
 .seccioncontacto h1 {
-    padding-top: 120px;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 391px;
     font-size: 32px;
 }
 
@@ -925,7 +918,7 @@ hr {
     padding-bottom: 0p
 }
 
-    
+
 
  .instagram {
     width: 50;
@@ -940,7 +933,7 @@ hr {
     padding-right: 0px;
     left: 600px;
     margin-bottom: 0px;
-    left: 1170px; 
+    left: 1170px;
 }
 
 img {
