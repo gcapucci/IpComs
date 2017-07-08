@@ -1,0 +1,1062 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.rojo {
+  color:azure;
+  margin-left: 500px;
+  font-family: sans-serif;
+  }
+
+}
+
+.dropdown {
+   padding: 0;
+
+}
+
+.dropdown li {
+    display: inline-block;
+    }
+
+nav {
+    margin: 0px;
+width: 100%;
+   padding-top: 0px;
+   padding-bottom: 10px;
+
+
+
+}
+-----------------------------------
+/* Menu desplegable */
+
+view compiled css
+
+.sub-menu{
+ display:none;
+}
+
+li.sub-menu-parent:hover .sub-menu {
+ display: block;
+}
+
+.sub-menu-parent {
+    position: relative;
+}
+
+
+.sub-menu {
+  visibility: hidden; /* Oculta el submenu */
+  opacity: 10;
+  position: absolute;
+  top: 100%;
+  left: -10%;
+  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* El ÃƒÂºltimo valor es el tiempo de transiciÃƒÂ³n para la visibilidad */
+  font-size: 20px;
+  }
+
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible; /* Reaccion sub-menu */
+  opacity: 1;
+  left: 0;
+  transition-delay: 0s; /*
+Esto elimina el retardo de transiciÃƒÂ³n para que el menÃƒÂº sea visible mientras que la transiciÃƒÂ³n de otros estilos*/
+}
+
+
+--------------------------------
+
+
+.dropwdown li a  {
+ font-family: Arial;
+ font-size:16px;
+ text-decoration: none;
+ float:left;
+ padding: 10px;
+ color: #fff;
+ margin-right: 150px;
+
+}
+
+body {
+  background-color: #d1dae3;
+  width: 100%;
+  height: 100%;
+    }
+
+a > h1 {
+
+  font-size: 25px;
+
+}
+
+h1 > p {
+    color:whitesmoke;
+    margin-left: 400px;
+    border-left: solid;
+    border-left-width: 0px;
+    margin-left: 100px;
+    padding-left: 600px;
+
+    }
+
+.subtitulo p {
+    padding-top: 230px;
+    font-size: 25px;
+    font-family:sans-serif;
+    padding-left: 30px;
+  }
+
+h2 > p > em {
+    margin-left: 280px;
+    padding-left: 200px;
+    font-size: 28px;
+   }
+
+
+
+div {
+    margin-left: 0px;
+    }
+
+.contacto {
+    padding-left: 700px;
+
+}
+
+ul > h4 {
+    font-family: fantasy;
+    margin-left: 250px;
+}
+
+a:hover {
+     font-size: 15px;
+     opacity: 0.5;
+
+ }
+
+lu, li {
+    padding-left: 50px !important;
+    padding-right: 70px;
+    font-family: cursive;
+}
+
+.color {
+  width:100%;
+  height:100%;                             /* imagen de fondo */
+  background-color:rgba(0,0,0,0.7);
+  color:#fff;
+}
+
+
+header {
+  background-color: rgba (0,0,0,0.9);
+  width: 100%;
+  }
+
+header img {
+    position: absolute;
+    bottom: 0
+}
+
+header, section {
+    height: 100vh;
+}
+
+nav {
+ position: fixed;    /* menu fijo */
+  z-index: 100;
+    }
+
+.encruadro1{
+    height: 400px;
+}
+
+---------------- /* acordeon */
+
+
+.accordion {
+	background: linear-gradient(to bottom right, white, #F8F8F8);
+	max-width: 400px;
+	background: white;
+	margin: 0 auto;
+	box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+	border-bottom: 1px solid #DDE0E7;
+	color: #080808;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 1.5rem;
+}
+
+.accordion-header:hover {
+	background: #F6F7F9;
+}
+
+.accordion-content {
+	display: none;
+	border-bottom: 1px solid #DDE0E7;
+	background: black  ;
+	padding: 1.5rem;
+	color: black;
+}
+
+.accordion-header::before {
+	content: '';
+	vertical-align: middle;
+	display: inline-block;
+	width: .75rem;
+	height: .75rem;
+	border-radius: 50%;
+	background-color: whitesmoke;
+	margin-right: .75rem;
+}
+
+.active.accordion-header::before {
+	background-color: #fff5f5;
+}
+
+h5 {
+    display:inline-block;
+    font-size: 30px;
+}
+
+.box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+    width: 300px;
+    height: 400px;
+    }
+
+img {
+	width: 100%;
+	height: auto;
+	margin: 40px auto;
+	padding: 0px 12px;
+
+}
+
+input{
+  color:black
+}
+
+input {
+    color: black !important;
+}
+
+.navbar-custom {
+    background: #2C3E50;
+    font-family: "Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif" ;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+}
+
+.navbar-custom a:focus {
+    outline: none;
+}
+
+.navbar-custom .navbar-brand {
+    color: white;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+    color: white;
+}
+
+.navbar-custom .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar-custom .navbar-nav li a {
+    color: white;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+    color: #18BC9C;
+    outline: none;
+}
+
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+    color: white;
+}
+
+.navbar-custom .navbar-nav li.active a {
+    color: white;
+    background: #18BC9C;
+}
+
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+    color: white;
+    background: #18BC9C;
+}
+
+.navbar-custom .navbar-toggle {
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-color: white;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #18BC9C;
+    color: white;
+    border-color: #18BC9C;
+}
+
+    }
+    .navbar-custom .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .navbar-custom.affix {
+        padding: 10px 0;
+    }
+    .navbar-custom.affix .navbar-brand {
+        font-size: 1.5em;
+    }
+
+.navbar-default {
+    background-color: #000000;
+    border-color: black;
+    opacity: 0.7;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default {
+    background-color: #000000;
+    border-color: black;
+    opacity: 0.6;
+  }
+
+}
+=======
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.rojo {
+  color:azure;
+  margin-left: 500px;
+  font-family: sans-serif;
+  }
+
+}
+
+.dropdown {
+   padding: 0;
+
+}
+
+.dropdown li {
+    display: inline-block;
+    }
+
+nav {
+   padding-top: 0px;
+   padding-bottom: 10px;
+}
+
+    .titulo{
+        padding: 200px;
+        font-size: 100px;
+        margin-top: 0px;
+        text-align: center;
+
+    }
+-----------------------------------
+/* Menu desplegable */
+
+view compiled css
+
+.sub-menu{
+ display:none;
+}
+
+li.sub-menu-parent:hover .sub-menu {
+ display: block;
+}
+
+.sub-menu-parent {
+    position: relative;
+}
+
+
+.sub-menu {
+  visibility: hidden; /* Oculta el submenu */
+  opacity: 10;
+  position: absolute;
+  top: 100%;
+  left: -10%;
+  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* El ÃƒÂºltimo valor es el tiempo de transiciÃƒÂ³n para la visibilidad */
+  font-size: 20px;
+  }
+
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible; /* Reaccion sub-menu */
+  opacity: 1;
+  left: 0;
+  transition-delay: 0s; /*
+Esto elimina el retardo de transiciÃƒÂ³n para que el menÃƒÂº sea visible mientras que la transiciÃƒÂ³n de otros estilos*/
+}
+
+
+--------------------------------
+
+
+.dropwdown li a  {
+ font-family: Arial;
+ font-size:16px;
+ text-decoration: none;
+ float:left;
+ padding: 10px;
+ color: #fff;
+ margin-right: 150px;
+
+}
+
+body {
+  background-image: url('../img/madera.jpg');
+  background-repeat:round;
+  background-size: cover;
+  color:whitesmoke;
+  width: 100%;
+  height: 100%;
+    }
+
+a > h1 {
+
+  font-size: 21px;
+
+}
+
+h1 > p {
+    color:whitesmoke;
+    margin-left: 400px;
+    border-left: solid;
+    border-left-width: 0px;
+    margin-left: 100px;
+    padding-left: 600px;
+    color: white;
+
+    }
+
+.subtitulo {
+    margin: 0px;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-size: 25px;
+
+}
+
+h2 > p > em {
+    margin-left: 280px;
+    padding-left: 261px;
+    color: white;
+   }
+
+
+
+div {
+    margin-left: 0px;
+    }
+
+.contacto {
+    padding-left: 700px;
+
+}
+
+ul > h4 {
+    font-family: fantasy;
+    margin-left: 250px;
+}
+
+a:hover {
+     font-size: 15px;
+     opacity: 0.5;
+
+ }
+
+lu, li {
+    padding-left: 100px;
+    padding-right: 80;
+    font-family: cursive;
+    color: white;
+    font-size: 19px;
+    }
+
+.fotofondo3 h2 lu, ul  {
+    color: black;
+    font-size: 19px;
+    }
+
+.color {
+  width:100%;
+  height:100%;                             /* imagen de fondo */
+  background-color:rgba(0,0,0,0.7);
+  color:#fff;
+}
+
+
+header {
+  background-color: rgba (0,0,0,0.9);
+  width: 100%;
+  }
+
+header img {
+    position: absolute;
+    bottom: 0
+}
+
+header, section {
+    height: 90vh;
+}
+
+nav {
+ position: fixed;    /* menu fijo */
+  z-index: 100;
+    }
+
+.encruadro1{
+    height: 60px;
+}
+
+---------------- /* acordeon */
+
+
+.accordion {
+	background: linear-gradient(to bottom right, white, #F8F8F8);
+	max-width: 400px;
+	background: white;
+	margin: 0 auto;
+	box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+	border-bottom: 1px solid #DDE0E7;
+	color: #273316;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 1.5rem;
+}
+
+.accordion-header:hover {
+	background: #F6F7F9;
+}
+
+.accordion-content {
+	display: none;
+	border-bottom: 1px solid #DDE0E7;
+	background: #404142;
+	padding: 1.5rem;
+	color: white;
+    font-size: 20px;
+}
+
+.accordion-header::before {
+	content: '';
+	vertical-align: middle;
+	display: inline-block;
+	width: .75rem;
+	height: .75rem;
+	border-radius: 50%;
+	background-color: whitesmoke;
+	margin-right: .75rem;
+}
+
+.active.accordion-header:"before" {
+	background-color: #FC6468;
+}
+
+h5 {
+    display:inline-block;
+    color: white;
+}
+
+.box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+    width: 300px;
+    height: 400px;
+    }
+
+img {
+	width: 100%;
+	height: auto;
+	margin: 40px auto;
+	padding: 0px 12px;
+
+}
+
+.fotofondo {
+	background-image: url("../img/tecladofondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+input{
+  color:black
+}
+
+input {
+    color: black !important;
+}
+
+.navbar-custom {
+    background: #2C3E50;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+}
+
+.navbar-custom a:focus {
+    outline: none;
+}
+
+.navbar-custom .navbar-brand {
+    color: white;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+    color: white;
+}
+
+.navbar-custom .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar-custom .navbar-nav li a {
+    color: white;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+    color: #18BC9C;
+    outline: none;
+}
+
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+    color: white;
+}
+
+.navbar-custom .navbar-nav li.active a {
+    color: white;
+    background: #18BC9C;
+}
+
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+    color: white;
+    background: #18BC9C;
+}
+
+.navbar-custom .navbar-toggle {
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-color: white;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #18BC9C;
+    color: white;
+    border-color: #18BC9C;
+}
+
+.navbar-default {
+    background-color: #000000;
+    border-color: black;
+    opacity: 0.7;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default {
+    background-color: #000000;
+    border-color: black;
+    opacity: 0.6;
+  }
+
+
+.fotofondo {
+	background-image: url("../img/tecladofondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.fotofondo1 {
+	background-image: url("../img/fondopc.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.fotofondo2 {
+    background-color: #404142;
+    height: 600px;
+}
+
+.fotofondo3 {
+    background-color: #e6e2df;
+    padding-top: 1px;
+    height: 601px;
+    }
+
+.fotofondo3 h1 {
+    color: black;
+    padding-left: 490px;
+    font-size: 20px;
+    padding-top: 27px;
+    font-family: cursive;
+  }
+    }
+
+.fotofondo1 lu h2 {
+        color: white;
+    }
+
+    .fotofondo4 {
+    background-image: url("../img/fondomadera.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+        height: 740px;    
+    }
+
+.fotofondo4 h1 {
+    color: white;
+    padding-left: 381px;
+    padding-top: 50px;
+    font-size: 30px;
+    margin-top: 0px
+}
+
+
+.accordion-header:hover{
+        background-color: grey;
+        transition: background-color 2.5s;
+
+    }
+
+.menufinal {
+
+    padding-left: 179px;
+    }
+
+.contactate h1 {
+    font-size: 33px;
+    color: white;
+    margin-bottom: 30px;
+    padding-bottom: 99px;
+    padding-top: 120px;
+    padding-left: 300px;
+    width: 1200px;
+    margin-top: 60px;
+    height: 279px;
+    
+}
+
+.menufinal2 {
+    padding-left: 620px;
+    }
+
+.fotofondo3 h1 p {
+    padding-left: -10px;
+    padding-top: 275px;
+    }
+
+.fotofondo4 h2 {
+    padding-left: 94px;
+    text-align:inherit;
+}
+
+.boton2 {
+    text-align: center;
+    }
+
+    .fotofondo4 h2 lu {
+        padding-right: 90px;
+        margin-left: 105px;
+        padding-right: 0px;
+
+    }
+
+   /*--parte superior-----------------------------------------*/
+
+.titulo{
+            font-family: 'Bowlby One', cursive;
+            padding: 200px;
+            font-size: 130px;
+            margin-top: 0px;
+            text-align: center;
+        }
+
+.Menu{
+          width: 100%;
+          position: fixed;
+          height: 60px;
+          display: flex;
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+
+.menu2{
+         float: left;
+         padding-right: 25px;
+         padding-left: 25px;
+         transition: 2s;
+         color: white;
+       }
+.Menu3{
+      width: 100%;
+      position: fixed;
+      height: 60px;
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+img > .imgface{
+  margin: 0px;
+  float: right;
+}
+
+    .imgface{
+      float: right;
+      height: 59px;
+      width: 75px;
+      margin: 0px;
+      left: 1100px;
+    }
+
+    .contactate {
+      background-image: url("../img/amanecer.JPG");
+     background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .form-group1 input {
+        padding-bottom: 100px;
+    }
+
+.box {
+  margin: 3px;
+  border: 3px solid #611313;
+  border-radius: 15px;
+  float: left;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+    }
+
+.subimg2{
+  border-radius: 15px;
+  font-size: 20px;
+  text-align: center;
+  height: 390px;
+  
+  }
+
+.box:hover{
+  background-color: rgba(0, 0, 40, 0.5);
+}
+
+.seccioncontacto h1 {
+    padding-top: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 391px;
+    font-size: 32px;
+}
+
+.seccioncontacto {
+        height: 268px;
+}
+
+.mundopc {
+    text-align: center;
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top-width: 1px;
+    padding-bottom: 0p
+}
+
+    
+
+ .instagram {
+    width: 50;
+    height: 38px;
+    object-fit: cover;
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 0px;
+    top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    left: 600px;
+    margin-bottom: 0px;
+    left: 1170px; 
+}
+
+img {
+    width: 274px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+ /*-----------------------------foto efect---------------------*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.transition {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 20px;
+}
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img .text {
+  font-family: 'Open Sans';
+  position: relative;
+  z-index: -1;
+  display: block;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img:hover .img {
+  -webkit-transform: 0px -30px 0.5;
+  -moz-transform: 0px -30px 0.5;
+  -ms-transform: 0px -30px 0.5;
+  -o-transform: 0px -30px 0.5;
+  transform: 0px -30px 0.5;
+  transform: translate(0px, -30px) scale(0.5);
+  -webkit-transform: translate(0px, -30px) scale(0.5);
+  -moz-transform: translate(0px, -30px) scale(0.5);
+  -o-transform: translate(0px, -30px) scale(0.5);
+  -ms-transform: translate(0px, -30px) scale(0.5);
+  border-radius: 50%;
+}
+.div-img:hover .text {
+  -webkit-transform: 0px 0px 2;
+  -moz-transform: 0px 0px 2;
+  -ms-transform: 0px 0px 2;
+  -o-transform: 0px 0px 2;
+  transform: 0px 0px 2;
+  transform: translate(0px, 0px) scale(2);
+  -webkit-transform: translate(0px, 0px) scale(2);
+  -moz-transform: translate(0px, 0px) scale(2);
+  -o-transform: translate(0px, 0px) scale(2);
+  -ms-transform: translate(0px, 0px) scale(2);
+}
+
+/*-------------------------------*/
+
+.contactofinal {
+    padding-left: 170px;
+    padding-right: 90px;
+    margin-bottom: 50px;
+    text-align:inherit;
+}
+
+.fondoaccesorios {
+      background-image: url("../img/fondoaccesorios.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.div-img h2 {
+    font-family: -webkit-pictograph;
+    color: white;
+    text-align: center;
+}
