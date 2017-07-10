@@ -3,7 +3,7 @@ $("a[href^='#']").click(function(e) {
 	var position = $($(this).attr("href")).offset().top;
 	$("body, html").animate({
 		scrollTop: position -65
-	}, 1000 );
+	}, 900 );
 });
 
 function closeAll() {
