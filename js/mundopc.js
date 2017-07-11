@@ -27,5 +27,37 @@ var waypoint = new Waypoint({
   handler: function(direction) {
     $('.box').addClass('animated fadeInUp')
   },
-	offset: 50
+	offset: 600
+})
+
+var waypoint = new Waypoint({
+  element: document.getElementById('menuconsulta'),
+  handler: function(direction) {
+    $('.menuconsulta2').addClass('animated fadeInRight')
+  },
+	offset: 600
+})
+
+var waypoint = new Waypoint({
+  element: document.getElementById('contacto'),
+  handler: function(direction) {
+    $('.contactate2').addClass('animated bounceIn')
+  },
+	offset: 400
+})
+
+var waypoint = new Waypoint({
+  element: document.getElementById('menuprincipal'),
+  handler: function(direction) {
+    $('.titulo').addClass('animated bounceIn')
+  },
+	offset: 0
+})
+
+var waypoint = new Waypoint({
+  element: document.getElementById('acordeon'),
+  handler: function(direction) {
+    $('.acordeon2').addClass('animated bounceIn')
+  },
+	offset: 0
 })

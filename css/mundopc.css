@@ -863,8 +863,8 @@ img > .imgface{
   float: left;
   display: inline-flex;
   flex-direction: column;
-  justify-content: center;\
-    opacity: 0;
+  justify-content: center;
+  opacity: 0;
     }
 
 .box.animated {
@@ -1084,4 +1084,27 @@ img {
     border-top-width: 1px;
     margin-top: 50px;
 }
+
+.menuconsulta2 {
+    opacity: 0;
+}
+
+.menuconsulta2.animated {
+    opacity: 1;
+}
+
+.contactate2 {
+    opacity: 0;
+}
+
+.contactate2.animated {
+    opacity: 1;
+}
+
+.titulo {
+    opacity: 0;
+}
+
+.titulo.animated {
+    opacity: 1;
 }
