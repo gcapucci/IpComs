@@ -22,3 +22,10 @@ $(".accordion").on("click", ".accordion-header", function() {
     
 });
 
+var waypoint = new Waypoint({
+  element: document.getElementById('productos'),
+  handler: function(direction) {
+    $('.box').addClass('animated fadeInUp')
+  },
+	offset: 50
+})

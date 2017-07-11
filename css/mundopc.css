@@ -863,8 +863,13 @@ img > .imgface{
   float: left;
   display: inline-flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;\
+    opacity: 0;
     }
+
+.box.animated {
+    opacity: 1;
+}
 
 .subimg2{
   border-radius: 15px;
