@@ -27,7 +27,7 @@ var waypoint = new Waypoint({
   handler: function(direction) {
     $('.box').addClass('animated fadeInUp')
   },
-	offset: 600
+	offset: 450
 })
 
 var waypoint = new Waypoint({
@@ -35,7 +35,7 @@ var waypoint = new Waypoint({
   handler: function(direction) {
     $('.menuconsulta2').addClass('animated fadeInRight')
   },
-	offset: 600
+	offset: 300
 })
 
 var waypoint = new Waypoint({
@@ -43,13 +43,13 @@ var waypoint = new Waypoint({
   handler: function(direction) {
     $('.contactate2').addClass('animated bounceIn')
   },
-	offset: 400
+	offset: 350
 })
 
 var waypoint = new Waypoint({
   element: document.getElementById('menuprincipal'),
   handler: function(direction) {
-    $('.titulo').addClass('animated bounceIn')
+    $('.titulo').addClass('animated jackInTheBox')
   },
 	offset: 0
 })
@@ -59,5 +59,4 @@ var waypoint = new Waypoint({
   handler: function(direction) {
     $('.acordeon2').addClass('animated bounceIn')
   },
-	offset: 0
 })
