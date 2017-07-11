@@ -81,7 +81,7 @@ Esto elimina el retardo de transiciÃƒÂ³n para que el menÃƒÂº sea visible
 }
 
 body {
-  background-color: #d1dae3;
+  background-color: #7790a5;
   width: 100%;
   height: 100%;
     }
@@ -174,7 +174,7 @@ nav {
 	background: white;
 	margin: 0 auto;
 	box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
-}
+    }
 
 .accordion-header {
 	border-bottom: 1px solid #DDE0E7;
@@ -479,16 +479,14 @@ ul > h4 {
 a:hover {
      font-size: 15px;
      opacity: 0.5;
+}
 
- }
-
-lu, li {
-    padding-left: 100px;
+.serviciosmenu p {   padding-left: 100px;
     padding-right: 80;
     font-family: cursive;
     color: white;
     font-size: 19px;
-    }
+}
 
 .fotofondo3 h2 lu, ul  {
     color: black;
@@ -552,7 +550,7 @@ nav {
 .accordion-content {
 	display: none;
 	border-bottom: 1px solid #DDE0E7;
-	background: #404142;
+	background: #252b30;
 	padding: 1.5rem;
 	color: white;
     font-size: 20px;
@@ -705,7 +703,7 @@ input {
 }
 
 .fotofondo2 {
-    background-color: #404142;
+    background-color: #252b30;
     height: 600px;
 }
 
@@ -717,12 +715,11 @@ input {
 
 .fotofondo3 h1 {
     color: black;
-    padding-left: 490px;
     font-size: 20px;
     padding-top: 27px;
     font-family: cursive;
-  }
-    }
+    text-align: center;  
+}
 
 .fotofondo1 lu h2 {
         color: white;
@@ -733,15 +730,16 @@ input {
     background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-        height: 740px;    
+    height: 900px;
     }
 
 .fotofondo4 h1 {
     color: white;
-    padding-left: 381px;
     padding-top: 50px;
-    font-size: 30px;
-    margin-top: 0px
+    font-size: 29px;
+    margin-top: 0px;
+    font-family: cursive;
+    text-align: center;
 }
 
 
@@ -755,16 +753,23 @@ input {
    text-align: left;
     }
 
+.menufinal p {
+    color: black;
+    font-size: 20px;
+}
+
+.menufinal2 p {
+    color: black;
+    font-size: 20px;
+}
+
 .contactate h1 {
     font-size: 33px;
     color: white;
     margin-bottom: 30px;
     padding-bottom: 99px;
     padding-top: 120px;
-    padding-left: 300px;
-    width: 1200px;
     margin-top: 60px;
-    height: 279px;
     
 }
 
@@ -840,11 +845,12 @@ img > .imgface{
     }
 
     .contactate {
-      background-image: url("../img/amanecer.JPG");
+     background-image: url("../img/amanecer.JPG");
      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 290px;
+}
 
     .form-group1 input {
         padding-bottom: 100px;
@@ -871,22 +877,22 @@ img > .imgface{
   background-color: rgba(0, 0, 40, 0.5);
 }
 
-.seccioncontacto h1 {
+.contactate2 h1 {
     padding-top: 120px;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 391px;
     font-size: 32px;
-    
+    text-align: center;
 }
 
 .seccioncontacto {
         height: 268px;
+    padding-bottom: 120px;
 }
 
 .mundopc {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 hr {
@@ -909,9 +915,9 @@ hr {
     top: 5px;
     padding-left: 0px;
     padding-right: 0px;
-    left: 600px;
+    left: 400px;
     margin-bottom: 0px;
-    left: 1170px; 
+    left: 1179px; 
 }
 
 img {
@@ -1024,11 +1030,19 @@ img {
 
 /*-------------------------------*/
 
-.contactofinal {
-    padding-left: 170px;
-    padding-right: 90px;
-    margin-bottom: 50px;
-    text-align:inherit;
+.contactofinal p {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+
+.contactofinal1 p {
+    padding-right: 80;
+    font-family: cursive;
+    color: white;
+    font-size: 19px;
+    text-align: center;
 }
 
 .fondoaccesorios {
@@ -1036,10 +1050,29 @@ img {
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
+      height: 825p    
 }
 
 .div-img h2 {
     font-family: -webkit-pictograph;
     color: white;
     text-align: center;
+}
+
+.ventas {
+    padding-top: 92px;
+    text-align: center;
+    font-size: 36px;
+    font-family: cursive;
+}
+
+.ventas p {
+    margin-bottom: 50px;
+}
+
+.raya {
+    padding-top: 0px;
+    border-top-width: 1px;
+    margin-top: 50px;
+}
 }

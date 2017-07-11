@@ -1,6 +1,6 @@
 /*----------------------Version celular------------------------*/
     
-@media screen and (min-width:0px) and (max-width: 470px) {
+@media screen and (min-width:0px) and (max-width: 800px) {
         body {
     background: #252b30;
     width: 420px;
@@ -93,24 +93,20 @@ a {
         font-size: 22px;
     }
     
-    .menufinal ul{
+    .menufinal p{
     font-size: 15px;
-    text-align: start;
+    text-align: center;
     }
     
-    .menufinal {
-        padding-left: 50px;
+    .menufinal2 p {
+    font-size: 15px;
+    padding-top: 0px;
+    text-align: center;
+    margin-bottom: 0px;    
     }
     
     .menufinal2 {
-        padding-left: 0px;
-        }
-    
-    .menufinal2 ul {
-    font-size: 15px;
-    padding-top: 22px;
-    padding-left: 31px;
-    text-align: center;    
+        margin-top: 30px;
     }
     
     .fotofondo3 {
@@ -146,7 +142,7 @@ a {
     }
     
     .fotofondo4 {
-        height: 790px;
+        height: 900px;
     }
 
     .contactate h1 {
@@ -185,9 +181,7 @@ a {
     }
 
     .consulta h1 {
-    padding-left: 39px;
-    margin-top: 0px;
-    margin-left: 0px;
+    text-align: center;
     font-size: 23px;
     margin-bottom: 0px;
     padding-top: 20px;    
@@ -216,6 +210,10 @@ a {
 
     .accordion-content {
         font-size: 14px;
+    }
+    
+    .accordion-header p {
+        font-size: 15px; 
     }
     
     .div-img h2 {
@@ -265,6 +263,9 @@ a {
         display: none;
     }
 
+    .ventas {
+        display: none;
+    }
 }
 
 
