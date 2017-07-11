@@ -1,0 +1,8 @@
+/*----------------------Versión Tablet / Ipad------------------------*/
+
+ @media screen and (min-width:400px) and (max-width: 1200px) {
+body {
+  background: #252b30;
+  width: 100%;
+    }
+}

@@ -76,15 +76,10 @@ a {
 }
  
     .fotofondo3 h1 {
-    padding-left: 0px;
-    padding-top: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 300px;
-    font-size: 15px; 
+    font-size: 15px;
     padding-top: 10px;
-    padding-bottom: 15px;
-    padding-left: 83px;
     text-align: center;
     font-family: fantasy;    
 }    
@@ -264,6 +259,10 @@ a {
     }
 
     .ventas {
+        display: none;
+    }
+
+    .raya {
         display: none;
     }
 }
