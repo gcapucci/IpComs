@@ -1,8 +1,17 @@
 /*----------------------Versión Tablet / Ipad------------------------*/
 
- @media screen and (min-width:400px) and (max-width: 1200px) {
+ @media screen and (min-width: 801px) and (max-width: 1000px) {
 body {
   background: #252b30;
   width: 100%;
     }
+     
+.nomobile {
+         display: none;
+     }
+     
+     .fondoaccesorios {
+        height: 830px;
+     }
+   
 }

@@ -729,7 +729,7 @@ input {
     background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-    height: 900px;
+    height: 700px;   
     }
 
 .fotofondo4 h1 {
@@ -738,7 +738,7 @@ input {
     font-size: 29px;
     margin-top: 0px;
     text-align: center;
-}
+    }
 
 
 .accordion-header:hover{
@@ -801,7 +801,7 @@ input {
 .titulo{
             font-family: 'Bowlby One', cursive;
             padding: 200px;
-            font-size: 130px;
+            font-size: 120px;
             margin-top: 0px;
             text-align: center;
         }
@@ -840,6 +840,8 @@ img > .imgface{
       width: 75px;
       margin: 0px;
       left: 1100px;
+      width: 73px;
+      height: 57px;    
     }
 
     .contactate {
@@ -907,7 +909,7 @@ hr {
     height: 38px;
     object-fit: cover;
     width: 60px;
-    height: 50px;
+    height: 54px;
     object-fit: cover;
     margin-top: 0px;
     top: 5px;
@@ -1040,6 +1042,7 @@ img {
     color: white;
     font-size: 19px;
     text-align: center;
+    padding-top: 12px;
 }
 
 .fondoaccesorios {
@@ -1057,14 +1060,17 @@ img {
 }
 
 .ventas {
-    padding-top: 92px;
+    padding-top: 84px;
     text-align: center;
     font-size: 36px;
     font-family: cursive;
+    font-size: 25px;
 }
 
 .ventas p {
     margin-bottom: 50px;
+    color: #e6e2df;
+
 }
 
 .raya {

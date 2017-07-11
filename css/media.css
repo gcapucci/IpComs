@@ -43,17 +43,20 @@ a {
     height: 50px;
     display: flex;
     background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
     }
     
     .menu2 {
     font-size: 13px;
     height: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     }
     
     
     .fotofondo2 {
     background-color: #252b30;
-        height: 520px;    
+    height: 520px;    
     }
     
     h2 p em {
@@ -61,6 +64,11 @@ a {
     text-align: start;
     margin-left: 120px;
     font-size: 18px;
+    }
+    
+    h2 {
+        font-size: 18px;
+        padding-top: 5px;
     }
     
     .box {
@@ -137,14 +145,12 @@ a {
     }
     
     .fotofondo4 {
-        height: 900px;
+        height: 700px;
     }
 
     .contactate h1 {
         font-size: 23px;
-        padding-left: 45px;
         padding-top: 80px;
-        width: 320px;
     }
     
     .seccioncontacto {
@@ -265,8 +271,11 @@ a {
     .raya {
         display: none;
     }
-}
 
+   .nomobile {
+       display: none;
+}
+}
 
 
 
