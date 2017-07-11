@@ -3,9 +3,9 @@
 @media screen and (min-width:0px) and (max-width: 800px) {
         body {
     background: #252b30;
-    width: 420px;
-    height: 3000px        
-         }
+    height: 3000px; 
+}
+    
 .fotofondo1 {
     background-image: url(../img/fondopc.jpg);
     background-repeat: no-repeat;
@@ -48,8 +48,8 @@ a {
     .menu2 {
     font-size: 13px;
     height: 20px;
-    padding-left: 13px;
     }
+    
     
     .fotofondo2 {
     background-color: #252b30;
@@ -60,7 +60,6 @@ a {
     font-size: 20px;
     text-align: start;
     margin-left: 120px;
-    padding-left: 0px;
     font-size: 18px;
     }
     
@@ -133,7 +132,8 @@ a {
     
     .colortext  {
         padding-left: 0px;
-        margin: 0px
+        margin: 0px;
+        padding-right: 0px;
     }
     
     .fotofondo4 {
@@ -164,7 +164,6 @@ a {
      width: 320px;
      height: 30px;
      text-align: center;
-     padding-left: 73px;
      margin-top: 0px;
      margin-bottom: 0px;
      font-size: 19px;
@@ -172,7 +171,7 @@ a {
     }
 
     .menu h1 a {
-        padding-left: 5px:
+        text-align: center
     }
 
     .consulta h1 {
@@ -183,14 +182,12 @@ a {
     }
   
     .contactofinal {
-    padding-left: 12px;
     font-size: 19px;
-    padding-right: 0px;
     text-align: center;
     }
  
     .contactofinal1 h2 lu {
-    padding-left: 12px;
+    text-align: center;
     font-size: 15px;
     padding-right: 0px;
     text-align: center; 
@@ -208,16 +205,23 @@ a {
     }
     
     .accordion-header p {
-        font-size: 15px; 
+        font-size: 15px;
+    }
+    
+    .accordion-header {
+        padding-left: 0px;
     }
     
     .div-img h2 {
     font-size: 18px;
     text-align: center;
     margin-bottom: 95px;
-
     }
   
+    .div-img {
+        justify-content: center;
+    }
+    
     .img {
     width: 274px;
     height: 250px;
@@ -236,10 +240,6 @@ a {
 
     .color {
      width: 350px;
-    }
-   
-    .box {
-       margin-left: 60px;
     }
 
     .fotofondo3 h2 lu, ul {
