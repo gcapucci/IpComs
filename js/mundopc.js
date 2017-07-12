@@ -49,7 +49,7 @@ var waypoint = new Waypoint({
 var waypoint = new Waypoint({
   element: document.getElementById('menuprincipal'),
   handler: function(direction) {
-    $('.titulo').addClass('animated jackInTheBox')
+    $('.titulo').addClass('animated zoomIn')
   },
 	offset: 0
 })
