@@ -717,7 +717,7 @@ input {
     font-size: 20px;
     padding-top: 27px;
     font-family: cursive;
-    text-align: center;  
+    text-align: center;
 }
 
 .fotofondo1 lu h2 {
@@ -729,7 +729,7 @@ input {
     background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-    height: 700px;   
+    height: 700px;
     }
 
 .fotofondo4 h1 {
@@ -768,7 +768,7 @@ input {
     padding-bottom: 99px;
     padding-top: 120px;
     margin-top: 60px;
-    
+
 }
 
 .menufinal2 {
@@ -842,7 +842,7 @@ img > .imgface{
       margin: 0px;
       left: 1100px;
       width: 73px;
-      height: 57px;    
+      height: 57px;
     }
 
     .contactate {
@@ -876,7 +876,7 @@ img > .imgface{
   font-size: 20px;
   text-align: center;
   height: 390px;
-  
+
   }
 
 .box:hover{
@@ -908,7 +908,7 @@ hr {
     padding-bottom: 0p
 }
 
-    
+
 
  .instagram {
     width: 50;
@@ -923,7 +923,7 @@ hr {
     padding-right: 0px;
     left: 400px;
     margin-bottom: 0px;
-    left: 1179px; 
+    left: 1179px;
 }
 
 img {
@@ -1056,7 +1056,7 @@ img {
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 825p    
+      height: 825p
 }
 
 .div-img h2 {
@@ -1107,4 +1107,15 @@ img {
 
 .titulo.animated {
     opacity: 1;
+}
+
+.precio {
+  text-align: center;
+	display: none;
+  transition: display 2s;
+}
+
+.active {
+	color: white;
+	display: block;
 }

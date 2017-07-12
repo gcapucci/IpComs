@@ -1,3 +1,11 @@
+$( ".boxx" ).hover(
+  function() {
+    $(`${"." + this.className.split(" ").join(".")} h5`).addClass( "active" );
+  }, function() {
+    $(`${"." + this.className.split(" ").join(".")} h5`).removeClass( "active" );
+  },
+);
+
 $("a[href^='#']").click(function(e) {
 	e.preventDefault();
 	var position = $($(this).attr("href")).offset().top;
@@ -19,7 +27,7 @@ $(".accordion").on("click", ".accordion-header", function() {
     } else {
         closeAll();
     }
-    
+
 });
 
 var waypoint = new Waypoint({
