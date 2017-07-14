@@ -68,3 +68,10 @@ var waypoint = new Waypoint({
     $('.acordeon2').addClass('animated bounceIn')
   },
 })
+
+
+$(".pestañacelular").click(function(event){
+    if ((window.innerWidth < 500 ))  {
+        event.preventDefault()
+    };
+})
