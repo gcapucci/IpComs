@@ -718,6 +718,7 @@ input {
     padding-top: 27px;
     font-family: cursive;
     text-align: center;
+    font-weight: 600;
 }
 
 .fotofondo1 lu h2 {
@@ -889,6 +890,7 @@ img > .imgface{
     margin-bottom: 0px;
     font-size: 32px;
     text-align: center;
+    font-weight: 700;
 }
 
 .seccioncontacto {
@@ -1041,6 +1043,7 @@ img {
     margin-top: 20px;
     padding-bottom: 20px;
     font-size: 19px;
+    
 }
 
 .contactofinal1 p {
@@ -1049,6 +1052,7 @@ img {
     font-size: 19px;
     text-align: center;
     padding-top: 12px;
+    font-weight: 700;
 }
 
 .fondoaccesorios {
@@ -1076,6 +1080,7 @@ img {
 .ventas p {
     margin-bottom: 50px;
     color: #e6e2df;
+    font-weight: 600;
 
 }
 
