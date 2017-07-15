@@ -69,12 +69,3 @@ var waypoint = new Waypoint({
   },
 })
 
-
-$(function() {  console.log( "ready!" );
-    console.log($(".pestañacelular"))
-    $(".pestañacelular").click(function(event){
-    if ((window.innerWidth < 500 ))  {
-        event.preventDefault()
-    };
-    })
-});

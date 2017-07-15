@@ -90,7 +90,9 @@ a {
     padding-top: 10px;
     text-align: center;  
     color: black;
-}    
+    font-family: fantasy;
+    font-weight: 700;
+    }   
     
     .subimg2 h2 {
         font-size: 22px;
