@@ -30,13 +30,7 @@ $(".accordion").on("click", ".accordion-header", function() {
 
 });
 
-var waypoint = new Waypoint({
-  element: document.getElementById('productos'),
-  handler: function(direction) {
-    $('.box').addClass('animated fadeInUp')
-  },
-	offset: 450
-})
+
 
 var waypoint = new Waypoint({
   element: document.getElementById('menuconsulta'),
@@ -68,4 +62,3 @@ var waypoint = new Waypoint({
     $('.acordeon2').addClass('animated bounceIn')
   },
 })
-
